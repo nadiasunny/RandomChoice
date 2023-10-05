@@ -1,0 +1,45 @@
+body, html{
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-repeat: initial;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+text{
+    color: red;
+}
+
+button{
+    background-color: black;
+    border:1cm;
+    margin: 8px 5px;
+    color: orangered;
+    padding:4px;
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+input{
+width: 90px;
+color:rgb(10, 10, 11);
+border: 2px solid red;
+background-color: rgb(168, 157, 157);
+text-align: center;
+margin: 8px 05px;
+}
+
+label{
+    align-content: center; 
+    color: white;
+}
+#outerBox{
+    color: red;
+    align-content: flex-box;
+
+}
+#text1{
+    color: red;
+    
+}
