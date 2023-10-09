@@ -2,6 +2,15 @@ let body = document.body.style;
 body.backgroundImage = 'url("/form/pictures/fire.jpeg")';
 
 
+function change(){
+  let all = document.getElementsByTagName("*");
+
+  for (let i=0, max=all.length; i < max; i++) {
+  all[i].style.color = "blue";
+}
+  document.borderColor = 'blue';
+  body.backgroundImage= 'url("/form/pictures/water.jpg")';
+}
 
 function handleSubmit(event) {
   body.backgroundImage= 'url("/form/pictures/calm.jpeg")';
