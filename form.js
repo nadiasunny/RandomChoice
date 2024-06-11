@@ -13,15 +13,19 @@ function change(){
 }
 
 function handleSubmit(event) {
+  //change background image to a calming one
   body.backgroundImage= 'url("/form/pictures/calm.jpeg")';
-//to be honest, idk how this works
-    event.preventDefault();
+  //prevent default behavior: refreshing and erasing form inputs
+  event.preventDefault();
 
-    const data = new FormData(event.target);
+  //set data to be a type pf data that holds the form's values
+  const data = new FormData(event.target);
 
-   const value = Object.fromEntries(data.entries());
+  //set value to be an object that contains the forms inputs
+  const value = Object.fromEntries(data.entries());
   
-    console.log({ value }); 
+  //print to console the object of values
+  console.log({ value }); 
 
 //make an array of all activities
 
@@ -36,8 +40,9 @@ function handleSubmit(event) {
     document.getElementById("chosenOne").setAttribute("value", choice);
   }
 
-
+  //assign form to hold form
   const form = document.querySelector('form');
+  //when the form is submitted, perform handleSubmit func
   form.addEventListener('submit', handleSubmit);
 
 
