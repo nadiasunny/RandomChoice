@@ -39,3 +39,11 @@ label{
     align-content: center; 
     color: red;
 }
+
+#randAct{
+    border-radius: 50%;
+    box-shadow: 20px darkslategray;
+    height: 100px;
+    background-color: red;
+    color: black;
+}
