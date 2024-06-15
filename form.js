@@ -79,10 +79,27 @@ let count = 3;
 
 function returnRand(){
   let actVal = document.getElementById("chosenOne");
-  let activities = {1: 'Go ride a bike',
-                    2: 'Go for a walk.',
-                    3: 'Get ice cream',
-                    4: 'Debate where God is.'
-  }
-  actVal = activities[Math.floor(Math.random()*3)]
+  
+  let acts = {  0: 'Eat a whole kiwi, skin & all.',
+                1: 'Go ride a bike',
+                2: 'Go for a walk.',
+                3: 'Get ice cream',
+                4: 'Debate where God is.'
+  };
+  let numuro = Math.floor(Math.random()*3);
+  actVal.value = acts[`${numuro}`];
+
+  
 }
+
+//playing around with some code from a comment on input sizing
+
+// $('body').on('keydown input', 'textarea[data-expandable]', function() {
+//   //Auto-expanding textarea
+//   this.style.removeProperty('height');
+//   this.style.height = (this.scrollHeight+2) + 'px';
+// }).on('mousedown focus', 'textarea[data-expandable]', function() {
+//   //Do this on focus, to allow textarea to animate to height...
+//   this.style.removeProperty('height');
+//   this.style.height = (this.scrollHeight+2) + 'px';
+// });

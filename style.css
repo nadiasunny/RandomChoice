@@ -47,3 +47,7 @@ label{
     background-color: red;
     color: black;
 }
+
+textarea{
+    min-width: 20vw;
+}
