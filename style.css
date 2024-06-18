@@ -5,6 +5,7 @@ body, html{
     background-repeat: initial;
     background-attachment: fixed;
     background-size: cover;
+    background-image: url("images/fire.jpeg");
 }
 
 #outerBox{
