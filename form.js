@@ -14,7 +14,7 @@ function change(){
 
 function handleSubmit(event) {
   //change background image to a calming one
-  body.backgroundImage= 'url("/form/pictures/calm.jpeg")';
+  document.body.style.backgroundImage= 'url("images/water.jpg")';
   //prevent default behavior: refreshing and erasing form inputs
   event.preventDefault();
 
@@ -78,6 +78,7 @@ let count = 3;
   }
 
 function returnRand(){
+  body.backgroundImage= 'url("images/water.jpg")';
   let actVal = document.getElementById("chosenOne");
   
   let acts = {  0: 'Eat a whole kiwi, skin & all.',
