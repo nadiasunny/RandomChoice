@@ -80,7 +80,15 @@ let count = 3;
 function returnRand(){
   body.backgroundImage= 'url("images/water.jpg")';
   let actVal = document.getElementById("chosenOne");
-  
+  fetch('https://bored-api.appbrewery.com/random')
+  .then(data => {
+    return data.json();
+  })
+  .then(act => {
+    console.log(act.activity);
+  });
+
+
   let acts = {  0: 'Eat a whole kiwi, skin & all.',
                 1: 'Go ride a bike',
                 2: 'Go for a walk.',
