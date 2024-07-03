@@ -80,13 +80,14 @@ let count = 3;
 function returnRand(){
   body.backgroundImage= 'url("images/water.jpg")';
   let actVal = document.getElementById("chosenOne");
-  fetch('https://bored-api.appbrewery.com/random')
-  .then(data => {
-    return data.json();
+  let isbn = Math.floor(Math.random()*1000000000000);
+  let request = "/domains/PRH.US/titles/9780140067484"
+  fetch("https://reststop.randomhouse.com/resources/authors/3446/", {
+    "callback_url":
   })
-  .then(act => {
-    console.log(act.activity);
-  });
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+  
 
 
   let acts = {  0: 'Eat a whole kiwi, skin & all.',
