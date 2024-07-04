@@ -80,16 +80,29 @@ let count = 3;
 function returnRand(){
   body.backgroundImage= 'url("images/water.jpg")';
   let actVal = document.getElementById("chosenOne");
-  let isbn = Math.floor(Math.random()*1000000000000);
-  let request = "/domains/PRH.US/titles/9780140067484"
-  fetch("https://reststop.randomhouse.com/resources/authors/3446/", {
-    "callback_url":
-  })
-    .then((response) => response.json())
-    .then((json) => console.log(json));
+  // let isbn = Math.floor(Math.random()*1000000000000);
+  // let request = "/domains/PRH.US/titles/9780140067484"
+  // fetch("https://reststop.randomhouse.com/resources/authors/3446/", {
+  //   "callback_url":
+  // })
+  //   .then((response) => response.json())
+  //   .then((json) => console.log(json));
   
+  let div = document.createElement("div");
+  let image = document.createElement('img');
+  
+  
+  document.body.appendChild(div);
+    
+  fetch("https://dog.ceo/api/breeds/image/random")
+    .then((response) => response.json())
+    .then((json) => {
+      console.log(json);
+      image.src = json.message
+      div.append(image, 'BECAUSE THIS DOGGO SAYS SO');  
+    })
 
-
+    
   let acts = {  0: 'Eat a whole kiwi, skin & all.',
                 1: 'Go ride a bike',
                 2: 'Go for a walk.',
