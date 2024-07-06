@@ -99,7 +99,7 @@ function returnRand(){
     .then((json) => {
       console.log(json);
       image.src = json.message
-      div.append(image, 'BECAUSE THIS DOGGO SAYS SO! Happy 4th of July, peeps!');  
+      div.append(image, "BECAUSE THIS DOGGO SAYS SO! Isn't he just the cutest!!!");  
     })
 
     
