@@ -90,6 +90,7 @@ function returnRand(){
   
   let div = document.createElement("div");
   let image = document.createElement('img');
+  div.setAttribute("id", "doggo");
   
   
   document.body.appendChild(div);
