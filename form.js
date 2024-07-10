@@ -87,21 +87,6 @@ function returnRand(){
   // })
   //   .then((response) => response.json())
   //   .then((json) => console.log(json));
-  
-  let div = document.createElement("div");
-  let image = document.createElement('img');
-  div.setAttribute("id", "doggo");
-  
-  
-  document.body.appendChild(div);
-    
-  fetch("https://dog.ceo/api/breeds/image/random")
-    .then((response) => response.json())
-    .then((json) => {
-      console.log(json);
-      image.src = json.message
-      div.append(image, "BECAUSE THIS DOGGO SAYS SO! Isn't he just the cutest!!!");  
-    })
 
     
   let acts = {  0: 'Eat a whole kiwi, skin & all.',
@@ -116,14 +101,14 @@ function returnRand(){
   
 }
 
-//playing around with some code from a comment on input sizing
+playing around with some code from a comment on input sizing
 
-// $('body').on('keydown input', 'textarea[data-expandable]', function() {
-//   //Auto-expanding textarea
-//   this.style.removeProperty('height');
-//   this.style.height = (this.scrollHeight+2) + 'px';
-// }).on('mousedown focus', 'textarea[data-expandable]', function() {
-//   //Do this on focus, to allow textarea to animate to height...
-//   this.style.removeProperty('height');
-//   this.style.height = (this.scrollHeight+2) + 'px';
-// });
+$('body').on('keydown input', 'textarea[data-expandable]', function() {
+  //Auto-expanding textarea
+  this.style.removeProperty('height');
+  this.style.height = (this.scrollHeight+2) + 'px';
+}).on('mousedown focus', 'textarea[data-expandable]', function() {
+  //Do this on focus, to allow textarea to animate to height...
+  this.style.removeProperty('height');
+  this.style.height = (this.scrollHeight+2) + 'px';
+});
