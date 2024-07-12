@@ -51,6 +51,8 @@ label{
 
 textarea{
     min-width: 20vw;
+    background: grey;
+    border: 2px solid red;
 }
 #doggo{
     border: 10px solid white;
