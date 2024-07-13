@@ -80,13 +80,6 @@ let count = 3;
 function returnRand(){
   body.backgroundImage= 'url("images/water.jpg")';
   let actVal = document.getElementById("chosenOne");
-  // let isbn = Math.floor(Math.random()*1000000000000);
-  // let request = "/domains/PRH.US/titles/9780140067484"
-  // fetch("https://reststop.randomhouse.com/resources/authors/3446/", {
-  //   "callback_url":
-  // })
-  //   .then((response) => response.json())
-  //   .then((json) => console.log(json));
 
     
   let acts = {  0: 'Eat a whole kiwi, skin & all.',
@@ -102,12 +95,15 @@ function returnRand(){
 }
 
 
-$('body').on('keydown input', 'textarea[data-expandable]', function() {
-  //Auto-expanding textarea
-  this.style.removeProperty('height');
-  this.style.height = (this.scrollHeight+1) + 'px';
-}).on('mousedown focus', 'textarea[data-expandable]', function() {
-  //Do this on focus, to allow textarea to animate to height...
-  this.style.removeProperty('height');
-  this.style.height = (this.scrollHeight+1) + 'px';
-});
+let randBtn = document.getElementById("randAct");
+randBtn.addEventListener('click', changeVibe);
+
+function changeVibe(){
+  let labels = document.querySelectorAll('label');
+  const myStyles = `
+    color: white;
+    background: blue;
+    opacity: 1.0;
+  `;
+  labels.style.cssText = myStyles;
+}

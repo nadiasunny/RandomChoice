@@ -38,25 +38,17 @@ margin: 8px 05px;
 
 label{
     align-content: center; 
-    color: red;
+    color: rgb(2, 2, 2);
+    background: rgba(181, 8, 8, 0.5);
+    opacity: 1.0;
 }
-
+h1{
+    color:white;
+}
 #randAct{
     border-radius: 50%;
     box-shadow: 20px darkslategray;
     height: 100px;
     background-color: red;
     color: black;
-}
-
-textarea{
-    min-width: 20vw;
-    background: grey;
-    border: 2px solid red;
-}
-#doggo{
-    border: 10px solid white;
-    align-items: center;
-    
-
 }
