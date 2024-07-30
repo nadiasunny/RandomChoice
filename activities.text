@@ -1,103 +1,155 @@
-Go for a hike|1
-Visit a museum|2
-Read a novel|3
-Try a new recipe|4
-Join a yoga class|5
-Go to a movie theater|6
-Take a painting class|7
-Go for a bike ride|8
-Explore a new city|9
-Visit a local farmer’s market|10
-Go stargazing|11
-Attend a live concert|12
-Try a new sport|13
-Go for a swim|14
-Take a cooking class|15
-Volunteer for a local charity|16
-Visit an amusement park|17
-Go on a picnic|18
-Take a photography walk|19
-Read a self-improvement book|20
-Explore a new hiking trail|21
-Take a pottery class|22
-Go to a zoo|23
-Try a new workout routine|24
-Visit a botanical garden|25
-Go to a comedy show|26
-Participate in a trivia night|27
-Attend a local festival|28
-Learn a new language|29
-Try a new craft|30
-Go camping|31
-Visit a historical site|32
-Go to a beach|33
-Explore a new neighborhood|34
-Join a book club|35
-Attend a workshop|36
-Go to a sports game|37
-Try rock climbing|38
-Have a spa day|39
-Take a scenic drive|40
-Visit an aquarium|41
-Go to a wine tasting|42
-Attend a theater performance|43
-Try an escape room|44
-Go ice skating|45
-Visit a planetarium|46
-Try a new board game|47
-Go on a boat tour|48
-Visit a castle|49
-Go for a hot air balloon ride|50
-Attend a cooking demonstration|51
-Take a dance class|52
-Visit a local brewery|53
-Explore a nearby town|54
-Try a new type of yoga|55
-Go horseback riding|56
-Visit a science center|57
-Take a scenic hike|58
-Go to a farmer’s market|59
-Try a new hobby|60
-Go to a local fair|61
-Visit a lighthouse|62
-Take a guided tour|63
-Explore a national park|64
-Go to a local theater|65
-Try a new recipe at home|66
-Visit a local gallery|67
-Attend a music festival|68
-Take a bike tour|69
-Explore a cave|70
-Try a new type of meditation|71
-Go to a drive-in movie|72
-Visit a local historical museum|73
-Take a boat ride|74
-Go for a nature walk|75
-Visit an art installation|76
-Try a new type of tea|77
-Go to a botanical exhibition|78
-Take a cultural tour|79
-Visit a local zoo|80
-Try a new workout class|81
-Attend a local market|82
-Visit a local observatory|83
-Try a new restaurant|84
-Go to a chocolate tasting|85
-Take a sailing lesson|86
-Visit a nearby farm|87
-Attend a local seminar|88
-Try a new type of cuisine|89
-Go to a music open mic night|90
-Explore a local nature reserve|91
-Take a knitting class|92
-Go to a local craft fair|93
-Visit a local historical site|94
-Try a new type of workout equipment|95
-Go to a local car show|96
-Take a weekend getaway|97
-Visit a local arboretum|98
-Attend a community event|99
-Try a new type of fitness challenge|100
+Read a Book | 1
+Go for a Walk | 2
+Cook a New Recipe | 3
+Watch a Movie | 4
+Try a New Hobby | 5
+Exercise | 6
+Visit a Museum | 7
+Write in a Journal | 8
+Listen to a Podcast | 9
+Practice Yoga | 10
+Play a Board Game | 11
+Call a Friend | 12
+Visit a Park | 13
+Do a Puzzle | 14
+Take a Nap | 15
+Explore a New Neighborhood | 16
+Attend a Workshop | 17
+Paint or Draw | 18
+Learn a New Language | 19
+Go for a Bike Ride | 20
+Try Meditation | 21
+Volunteer | 22
+Bake Cookies | 23
+Go to a Farmers' Market | 24
+Attend a Live Music Event | 25
+Watch a Documentary | 26
+Go Camping | 27
+Have a Picnic | 28
+Visit a Zoo | 29
+Go to the Beach | 30
+Take a Photography Walk | 31
+Go on a Scenic Drive | 32
+Join a Club | 33
+Have a DIY Spa Day | 34
+Plant a Garden | 35
+Visit a Historic Site | 36
+Go Ice Skating | 37
+Take a Dance Class | 38
+Go to a Sporting Event | 39
+Try Geocaching | 40
+Write a Short Story | 41
+Have a Movie Marathon | 42
+Visit an Aquarium | 43
+Go Bowling | 44
+Take a Cooking Class | 45
+Explore a National Park | 46
+Go Horseback Riding | 47
+Attend a Theater Performance | 48
+Go to an Amusement Park | 49
+Take a Scenic Hike | 50
+Go to a Wine Tasting | 51
+Have a Game Night | 52
+Try Pottery | 53
+Explore a Botanical Garden | 54
+Visit a Planetarium | 55
+Go Fishing | 56
+Take a Boat Ride | 57
+Have a BBQ | 58
+Try a New Restaurant | 59
+Go to a Comedy Club | 60
+Have a Photo Shoot | 61
+Visit a Library | 62
+Try a New Sport | 63
+Go Rock Climbing | 64
+Watch a Sunrise | 65
+Attend a Festival | 66
+Go to a Craft Fair | 67
+Do a DIY Project | 68
+Take a Yoga Class | 69
+Explore an Art Gallery | 70
+Have a Tea Party | 71
+Try Cross-Stitching | 72
+Go to a Karaoke Bar | 73
+Take a Day Trip | 74
+Go to a Cultural Event | 75
+Try a New Workout | 76
+Visit a Farm | 77
+Go to a Vintage Market | 78
+Explore a Cave | 79
+Have a Scavenger Hunt | 80
+Take a Cooking Workshop | 81
+Visit a Local Fair | 82
+Go to a Petting Zoo | 83
+Try a New Craft | 84
+Attend a Book Reading | 85
+Visit a Local Brewery | 86
+Go to a Science Center | 87
+Have a Bonfire | 88
+Take a Scenic Train Ride | 89
+Go to a Street Fair | 90
+Visit a Historic Home | 91
+Go Bird Watching | 92
+Try Glassblowing | 93
+Go to a Car Show | 94
+Visit an Escape Room | 95
+Take a Potluck Dinner | 96
+Go to a Jazz Club | 97
+Try Ice Sculpting | 98
+Visit a Sculpture Park | 99
+Go to a Symphony Concert | 100
+Take a Cooking Tour | 101
+Visit a Contemporary Art Museum | 102
+Go Stargazing | 103
+Try Calligraphy | 104
+Visit a Chocolate Factory | 105
+Go to a Dance Performance | 106
+Explore a Lighthouse | 107
+Visit a Flea Market | 108
+Go to a Historic Battlefield | 109
+Try Zip-Lining | 110
+Attend a Local Play | 111
+Go to a Magic Show | 112
+Explore an Old Town | 113
+Visit a Steam Engine Museum | 114
+Try Archery | 115
+Go to a Food Truck Festival | 116
+Visit an Animal Sanctuary | 117
+Take a Glass Factory Tour | 118
+Go to a Puppet Show | 119
+Explore a New City | 120
+Visit a Chocolate Tasting Event | 121
+Go on a Brewery Tour | 122
+Try Indoor Skydiving | 123
+Visit a Fireworks Display | 124
+Take a History Tour | 125
+Go to a Botanical Exhibit | 126
+Visit a Natural History Museum | 127
+Try a New Cuisine | 128
+Go to a Beach Bonfire | 129
+Visit a Local Artisan Market | 130
+Try a Wine and Paint Class | 131
+Go to a Circus | 132
+Visit an Interactive Museum | 133
+Go to a Car Rally | 134
+Try a New Type of Yoga | 135
+Visit a Wildlife Reserve | 136
+Go to a Craft Brewery | 137
+Attend a Holiday Market | 138
+Try Scenic Kayaking | 139
+Visit a Local Art Studio | 140
+Go to a Film Festival | 141
+Try a New Fitness Class | 142
+Visit a Historical Landmark | 143
+Go on a Hot Air Balloon Ride | 144
+Take a Pottery Class | 145
+Visit a Science Museum | 146
+Go to a Food and Wine Festival | 147
+Try an Escape Game | 148
+Visit a Music Museum | 149
+Go on a Guided City Tour | 150
+
+
 
 
 
