@@ -107,3 +107,18 @@ function changeVibe(){
   `;
   labels.style.cssText = myStyles;
 }
+//failed to read file
+// const fs = require('fs');
+
+// fs.readFile('activities.txt', (err, data) => {
+//   if (err) throw err;
+//   console.log(data.toString());
+// })
+
+let textOuput = document.createElement('p')
+const file = 'activities.txt';
+const reader = new FileReader();
+reader.onload = function(e) {
+  document.getElementById('textOutput').innerHTML = e.target.result;
+};
+console.log(reader.readAsText(file));
