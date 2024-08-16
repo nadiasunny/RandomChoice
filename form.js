@@ -78,7 +78,10 @@ let count = 3;
   }
 
 function returnRand(){
+  body.style.removeProperty('backgroundImage');
   body.backgroundImage= 'url("images/water.jpg")';
+  
+  
   let actVal = document.getElementById("chosenOne");
 
     

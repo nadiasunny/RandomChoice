@@ -4,7 +4,7 @@ body, html{
     background-position: center;
     background-repeat: initial;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
     background-image: url("images/fire.jpeg");
 }
 
@@ -31,7 +31,7 @@ input{
 width: 90px;
 color:rgb(10, 10, 11);
 border: 2px solid red;
-background-color: rgb(168, 157, 157);
+background-color: rgb(210, 186, 186);
 text-align: center;
 margin: 8px 05px;
 }
